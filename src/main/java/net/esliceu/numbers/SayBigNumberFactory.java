@@ -8,7 +8,7 @@ public class SayBigNumberFactory {
     private final String operateService = "http://localhost:8080/SayBigNumber";
 
     private SayBigNumberFactory() {
-        numbers = new NumbersCat();
+        numbers = (Numbers) new NumbersCat();
 
     }
 
@@ -41,18 +41,18 @@ public class SayBigNumberFactory {
     public String add(String first, String second) {
         initOperator(first);
 
-        return operator.add(new BigNumber(second));
+        return operator.add((BigNumberOperator) new BigNumber(second));
     }
 
 
     public String subtract(String first, String second) {
         initOperator(first);
 
-        return operator.subtract(new BigNumber(second));
+        return operator.subtract((BigNumberOperator) new BigNumber(second));
     }
 
     private void initOperator(String first) {
-        operator = new BigNumber(first);
+        operator = (BigNumberOperator) new BigNumber(first);
     }
 
     public String getOperateService(String path) {

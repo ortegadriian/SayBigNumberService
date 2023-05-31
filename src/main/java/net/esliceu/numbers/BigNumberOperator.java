@@ -1,8 +1,7 @@
 package net.esliceu.numbers;
 
 public interface BigNumberOperator {
-    String add(BigNumber secondBigNumber);
+    String add(BigNumberOperator secondBigNumber);
 
-    String subtract(BigNumber secondBigNumber);
+    String subtract(BigNumberOperator secondBigNumber);
 }
-a
