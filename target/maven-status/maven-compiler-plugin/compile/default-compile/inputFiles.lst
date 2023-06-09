@@ -1,0 +1,9 @@
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/NumbersCat.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/NumbersException.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/http/OperateBigNumberService.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/BigNumberOperator.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/http/SayBigNumberService.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/http/SayNumberService.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/BigNumber.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/SayBigNumberFactory.java
+/opt/tomcat/webapps/SayBigNumberService/src/main/java/net/esliceu/numbers/Numbers.java
