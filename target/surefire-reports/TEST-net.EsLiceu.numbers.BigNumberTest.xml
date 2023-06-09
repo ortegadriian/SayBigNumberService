@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="net.EsLiceu.numbers.BigNumberTest" time="1.008" errors="0" skipped="3">
+<testsuite tests="9" failures="0" name="net.EsLiceu.numbers.BigNumberTest" time="1.066" errors="0" skipped="3">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.7+7-Ubuntu-0ubuntu122.04.2"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/opt/tomcat/webapps/SayBigNumberService"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/superior/IdeaProjects/SayBigNumberService"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="java.vendor.url" value="Unknown"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/opt/tomcat/webapps/SayBigNumberService"/>
+    <property name="user.dir" value="/home/superior/IdeaProjects/SayBigNumberService"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="17.0.7+7-Ubuntu-0ubuntu122.04.2"/>
     <property name="os.arch" value="amd64"/>
@@ -40,7 +40,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
     <property name="user.language" value="ca"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -57,19 +57,19 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="potencies" time="0.123"/>
-  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="divisions" time="0.124">
+  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="potencies" time="0.127"/>
+  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="divisions" time="0.128">
     <skipped/>
   </testcase>
-  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="arrels" time="0.124">
+  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="arrels" time="0.128">
     <skipped/>
   </testcase>
   <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="restes" time="0.002"/>
-  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="multiplicacions" time="0.008"/>
+  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="multiplicacions" time="0.007"/>
   <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="mcd" time="0.008">
     <skipped/>
   </testcase>
-  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="comparacions" time="0.001"/>
-  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="sumes" time="0"/>
-  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="factorials" time="0.618"/>
+  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="comparacions" time="0"/>
+  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="sumes" time="0.001"/>
+  <testcase classname="net.EsLiceu.numbers.BigNumberTest" name="factorials" time="0.665"/>
 </testsuite>
